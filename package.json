@@ -8,7 +8,6 @@
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev --no-cache --parallel --continue",
-		"g:lint-staged-files": "lint-staged --allow-empty",
 		"g:changeset": "changeset",
 		"app:dev/admin": "turbo run dev --filter=./apps/admin",
 		"app:build/admin": "turbo run build --filter=./apps/admin",
@@ -16,7 +15,6 @@
 		"test": "turbo run test",
 		"clean": "turbo run clean && rm -rf node_modules",
 		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
-		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"@babel/core": "7.17.9",
