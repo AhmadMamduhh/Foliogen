@@ -1,0 +1,2 @@
+[32madmin:lint[0m: cache hit, replaying output [2m58319ff0aa65d0d4[0m
+[32madmin:lint: [0m$ tsc --noEmit && eslint src/**/*.ts* --fix

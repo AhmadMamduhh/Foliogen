@@ -1,0 +1,2 @@
+[35mui:lint[0m: cache hit, replaying output [2m0210dc17d19828ba[0m
+[35mui:lint: [0m$ eslint src/**/*.ts* --fix
